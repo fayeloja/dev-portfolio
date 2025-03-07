@@ -13,7 +13,7 @@ function NavBar({ title }) {
 
   return (
     <nav className="sticky top-0 z-50 p-4 bg-white shadow-lg">
-      <div className="flex justify-between items-center max-w-7xl mx-auto">
+      <div className="flex justify-between items-center  mx-auto">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0">
           <img className="h-10 w-10 mr-5" src={logo} alt="logo" />
